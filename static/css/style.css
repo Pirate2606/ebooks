@@ -1,0 +1,208 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.homepage {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(0,0,0,0.5)), url(https://blog.ipleaders.in/wp-content/uploads/2020/02/rent-borrow-ebooks-online-1068x713.jpg);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 700px;
+}
+
+#logo {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+.cse {
+  background-color: #CBCB91;
+}
+
+.jumbotron {
+  background: none;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-left: 5rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+
+.nav-link:hover {
+    color: rgba(234, 11, 11, 0.75);
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+
+.about-sec {
+    margin-bottom: 80px;
+    background: #f7f4f0;
+    float: left;
+    width: 100%;
+}
+.about-sec .about-img {
+      float: left;
+      width: 40%;
+}
+.about-sec .about-img figure {
+      height: 550px;
+      width: 100%;
+      margin-bottom: 0;
+}
+.about-sec .about-content {
+      max-width: 600px;
+      float: left;
+      padding: 60px 0;
+      padding-left: 60px;
+}
+.about-sec .about-content h2 {
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 25px;
+}
+.about-sec .about-content p {
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 30px;
+}
+.about-sec .about-content .btn-sec {
+      margin-top: 58px;
+}
+.about-sec .about-content .btn-sec .btn {
+        margin-right: 10px; }
+.about-sec .about-content .btn-sec .black {
+        background: #252525;
+        border: 2px solid #252525;
+}
+.about-sec .about-content .btn-sec .black:hover {
+          background: transparent;
+          color: #252525;
+}
+
+
+footer {
+  background: #f0f0f0;
+  padding: 80px 0 0;
+  width: 100%;
+  float: left;
+}
+footer h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+footer .address {
+    margin-bottom: 50px;
+}
+footer .address h6 {
+      color: #464646;
+      line-height: 20px;
+      margin-bottom: 20px;
+      font-weight: 300;
+      padding-right: 50px;
+      line-height: 24px;
+}
+footer .timing h6 {
+    color: #464646;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+footer ul li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+footer ul li a {
+      color: #464646;
+      font-size: 12px;
+}
+footer .navigation {
+    margin-bottom: 40px;
+}
+footer .form h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+footer .form h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+footer .form input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 0;
+}
+footer .form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    border: 0;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer .form .btn {
+    font-weight: 300;
+}
+footer .copy-right {
+    background: #000;
+    color: #fff;
+    padding: 25px 0;
+    margin-top: 60px;
+}
+footer .copy-right h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+footer .copy-right .row {
+    align-items: center;
+}
+footer .copy-right .share {
+    text-align: right;
+}
+footer .copy-right .share span {
+    padding: 0 5px;
+    cursor: pointer;
+}
+footer .copy-right .share span:last-child {
+    padding-right: 0;
+}
+footer .copy-right .share span:hover {
+    color: #ff9700;
+}
+
+@media only screen and (max-width: 480px) {
+    footer .timing {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding: 60px 0 0;
+    }
+
+    footer .copy-right .share {
+        text-align: left;
+    }
+
+    footer .copy-right .share {
+        text-align: left;
+        margin-top: 10px;
+    }
+}

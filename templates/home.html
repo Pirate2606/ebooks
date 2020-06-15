@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container homepage">
+	<div class="jumbotron">
+			<h1>Welcome</h1>
+	</div>
+</div>
+<br>
+<section class="about-sec" id="about" style="height: 400px;">
+	<div class="about-img">
+		<figure style="background: rgba(0, 0, 0, 0) url(https://www.savethestudent.org/uploads/ebooks-on-laptop-on-desk.jpg) no-repeat scroll 0% 0%; --darkreader-inline-bgcolor:rgba(0, 0, 0, 0);" data-darkreader-inline-bgcolor=""></figure>
+	</div>
+	<div class="about-content">
+			<h2>About me</h2>
+			<p>Hi there, i am <i>"Aditya Naitan"</i> the devepoler of this website. I am a student of UIT (Computer science engineering). </p>
+			<p>This site is made to save the time of students of UIT by providing the download links of the pdf of the books they need for their exams.</p>
+		</div>
+</section>
+<br>
+
+<footer id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="address">
+                    <h4>Our Address</h4>
+                    <h6>New Shimla, shimla</h6>
+                    <h6>Call : +91 - xxx-xxx-xxxx</h6>
+                    <h6>Email : adityanaitan@gmail.com</h6>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="navigation">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form">
+                    <h3>Quick Contact us</h3>
+                    <h6>Any feedback is accepted,
+										    Thank You.</h6>
+                    <form method="POST">
+                        <div class="row">
+													{{ form.hidden_tag() }}
+                            <div class="col-md-6">
+																{{ form.name(placeholder = "Name") }}
+                            </div>
+                            <div class="col-md-6">
+															  {{ form.email(placeholder = "Email") }}
+                            </div>
+                            <div class="col-md-12">
+															  {{ form.message(placeholder = "Message") }}
+                            </div>
+                            <div class="col-md-12">
+                                {{ form.submit(class = "btn btn-success") }}
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+{% endblock %}
